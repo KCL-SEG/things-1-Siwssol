@@ -3,4 +3,4 @@ from django.views import View
 
 
 def home(request):
-    return render(request, 'thingsPage.html')
+    return render(request, 'templates/thingsPage.html')
